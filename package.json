@@ -1,0 +1,36 @@
+{
+  "name": "react-rainbow",
+  "version": "1.0.0",
+  "description": "Rainbow generated with React",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutyel/react-rainbow.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "rainbow"
+  ],
+  "author": "kutyel <flaviocorpa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kutyel/react-rainbow/issues"
+  },
+  "homepage": "https://github.com/kutyel/react-rainbow#readme"
+}
