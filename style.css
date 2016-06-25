@@ -1,0 +1,6 @@
+#rainbow > table {
+    border-spacing: 0px;
+}
+#rainbow > table > tbody > tr {
+    height: 100px
+}

@@ -6,6 +6,6 @@ interface RainbowColor { color: (x: number) => string; }
 export default function RainbowColor(props: RainbowColor) {
     return <tr>
         {_.range(256).map((x: number) =>
-            <td style={{ backgroundColor: `rgb(${props.color(x)})`, height: `100px` }} key={x}></td>)}
+            <td style={{ backgroundColor: `rgb(${props.color(x)})` }} key={x}></td>)}
     </tr>;
 }

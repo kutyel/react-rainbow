@@ -81,7 +81,7 @@
 	        _super.apply(this, arguments);
 	    }
 	    Rainbow.prototype.render = function () {
-	        return React.createElement("table", {style: { borderSpacing: "0px" }}, React.createElement("tbody", null, React.createElement(RainbowColor_1.default, {color: function (r) { return (r + ",0,0"); }}), React.createElement(RainbowColor_1.default, {color: function (o) { return (o + "," + Math.ceil(o / 2) + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (y) { return (y + "," + y + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (g) { return ("0," + g + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (z) { return ("0," + z + "," + z); }}), React.createElement(RainbowColor_1.default, {color: function (b) { return ("0,0," + b); }}), React.createElement(RainbowColor_1.default, {color: function (p) { return (p + ",0," + p); }})));
+	        return React.createElement("table", null, React.createElement("tbody", null, React.createElement(RainbowColor_1.default, {color: function (r) { return (r + ",0,0"); }}), React.createElement(RainbowColor_1.default, {color: function (o) { return (o + "," + Math.ceil(o / 2) + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (y) { return (y + "," + y + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (g) { return ("0," + g + ",0"); }}), React.createElement(RainbowColor_1.default, {color: function (z) { return ("0," + z + "," + z); }}), React.createElement(RainbowColor_1.default, {color: function (b) { return ("0,0," + b); }}), React.createElement(RainbowColor_1.default, {color: function (p) { return (p + ",0," + p); }})));
 	    };
 	    return Rainbow;
 	}(React.Component));
@@ -98,7 +98,7 @@
 	var React = __webpack_require__(1);
 	function RainbowColor(props) {
 	    return React.createElement("tr", null, _.range(256).map(function (x) {
-	        return React.createElement("td", {style: { backgroundColor: "rgb(" + props.color(x) + ")", height: "100px" }, key: x});
+	        return React.createElement("td", {style: { backgroundColor: "rgb(" + props.color(x) + ")" }, key: x});
 	    }));
 	}
 	Object.defineProperty(exports, "__esModule", { value: true });

@@ -4,7 +4,7 @@ import RainbowColor from "./RainbowColor";
 
 export default class Rainbow extends React.Component<any, {}> {
     render() {
-        return <table style={{ borderSpacing: `0px` }}>
+        return <table>
             <tbody>
                 <RainbowColor color={(r: number) => `${r},0,0`} />
                 <RainbowColor color={(o: number) => `${o},${Math.ceil(o / 2)},0`} />
