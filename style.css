@@ -4,3 +4,6 @@
 #rainbow > table > tbody > tr {
     height: 100px
 }
+#rainbow > table > tbody > tr > td {
+    width: 4px
+}

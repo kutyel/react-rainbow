@@ -41,3 +41,6 @@ typings
 
 # Images
 .DS_Store
+
+# Generated files
+dist
