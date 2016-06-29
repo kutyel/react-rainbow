@@ -1,4 +1,9 @@
 {
+  "ava": {
+    "files": [
+      "dist/tests/*.spec.js"
+    ]
+  },
   "name": "react-rainbow",
   "version": "1.0.0",
   "description": "Rainbow generated with React",
@@ -11,11 +16,16 @@
   },
   "devDependencies": {
     "ava": "^0.15.2",
+    "enzyme": "^2.3.0",
+    "react-addons-test-utils": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "retyped-enzyme-tsd-ambient": "^1.2.0-0",
     "source-map-loader": "^0.1.5",
     "ts-loader": "^0.8.2",
     "webpack": "^1.13.1"
   },
   "scripts": {
+    "pretest": "tsc",
     "test": "ava"
   },
   "repository": {
