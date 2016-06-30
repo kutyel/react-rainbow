@@ -16,3 +16,7 @@ test("each cell should have its index as key", t => {
         t.is(wrapper.children().get(index).key, index.toString());
     });
 });
+
+test("color prop should return equivalent rgb string arguments", t => {
+    t.is(wrapper.props().color(255), "255,0,0");
+});
