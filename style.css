@@ -2,8 +2,8 @@
     border-spacing: 0px;
 }
 #rainbow > table > tbody > tr {
-    height: 100px
+    height: 100px;
 }
 #rainbow > table > tbody > tr > td {
-    width: 4px
+    width: 4px;
 }
